@@ -45,8 +45,8 @@
     ;; zoom-window
     zoom-window
 
-    ;; neotree
-;;    neotree
+    ;; evil mode
+    evil
     ))
 
 ;; this installs what is listed in my-packages

@@ -9,9 +9,11 @@
 
 ;; show line numbers
 (global-linum-mode t)
+;; show column numbers
+(column-number-mode t)
 
 ;; font
-(set-default-font "monaco 16")
+(set-default-font "monaco 14") 
 
 ;; color theme
 (load-theme 'darkokai t)

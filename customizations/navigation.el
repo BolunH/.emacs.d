@@ -40,7 +40,11 @@
 (global-set-key (kbd "<C-S-left>") 'shrink-window-horizontally)
 (global-set-key (kbd "<C-S-right>") 'enlarge-window-horizontally)
 
-;; zoom in/out of a window
+;; rebind C-l to recenter-0 scroll the current line to the top
+(defun recenter-0 ()
+  (interactive)
+  (recenter 0))
+(global-set-key (kbd "C-l") 'recenter-0)
 
 ;; ibuffer instead of list-buffers
 (global-set-key (kbd "C-x C-b") 'ibuffer)

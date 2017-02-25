@@ -1,6 +1,7 @@
-(setq-default c-default-style "k&r"
+(setq-default c-default-style "linux"
 	      c-basic-offset 8
 	      indent-tabs-mode t)
+
 (dolist (hook '(c-mode-hook c++-mode-hook))
   (add-hook hook
 	    (lambda ()

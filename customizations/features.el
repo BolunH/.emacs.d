@@ -15,3 +15,5 @@
 (global-set-key (kbd "C-x C-z") 'zoom-window-zoom)
 (setq zoom-window-mode-line-color "#369")
 
+(require 'evil)
+(evil-mode t)
